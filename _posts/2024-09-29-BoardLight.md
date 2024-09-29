@@ -1,8 +1,6 @@
 
 ![Logo](https://github.com/user-attachments/assets/997ea495-b7d7-49e5-83fe-5747fa781fbe)
 
-
-
 ---
 
 | **Created by** | **Page**     | **Difficulty** | **OS**  |
