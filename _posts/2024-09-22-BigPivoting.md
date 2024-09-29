@@ -1,7 +1,6 @@
 
 ![image](https://github.com/user-attachments/assets/1ad41755-686c-411e-bbe8-b1e2af1e8161)
 
-
 ---
 
 | **Created by** | **Page**     | **Difficulty** | **OS**  |
