@@ -39,9 +39,10 @@
         <img  class="avatar" src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
       </a>
     
-  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
-  {% include menu.html menu=pages %}
-      </div>
+    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+    {% include menu.html menu=pages %}
+    </div>
+    </div>
 </header>
 
 {{ content }}
