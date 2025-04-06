@@ -28,7 +28,17 @@
 {% endif %}
 
 <header>
-  ![Logo](https://github.com/rlllana/pwned/blob/61476d25d6d6dc054ade5267161781e14f2c6f81/assets/Logo.jpg)
+   <div id="profile-wrapper" class="d-flex flex-column">
+    <div id="avatar" class="d-flex justify-content-center">
+      <a href="{{ site.baseurl }}/" alt="avatar">
+        {% assign avatar_url = site.avatar %}
+        {% capture start %}{{ site.avatar | slice: 0 }}{% endcapture %}
+        {% if start == '/' %}
+          {% assign avatar_url = avatar_url | prepend: site.baseurl %}
+        {% endif %}
+        <img src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
+      </a>
+    </div>
   <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
   {% include menu.html menu=pages %}
 </header>
