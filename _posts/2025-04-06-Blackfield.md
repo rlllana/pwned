@@ -37,11 +37,11 @@
 
 - Having the SMB ports open, I start to enumerate them using null credentials and manage to see several shares but find nothing relevant.
 
-```python
-netexec smb 10.10.10.192 -u "Guest" -p "" --shares
-```
-
-![image](https://github.com/user-attachments/assets/695079ae-127b-4443-bda9-c1b6ded2ae14)
+	```python
+	netexec smb 10.10.10.192 -u "Guest" -p "" --shares
+	```
+	
+	![image](https://github.com/user-attachments/assets/695079ae-127b-4443-bda9-c1b6ded2ae14)
 
 - Using brute force I list system users and manage to find a couple of users.
 
